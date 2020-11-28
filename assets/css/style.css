@@ -36,9 +36,7 @@ header {
     font-weight: 700;
 }
 
-#desktop-nav ul li a:hover {
-    color: red;
-}
+
 
 #desktop-nav ul li.active {
     border-bottom: 3px solid #0074CE;
@@ -311,6 +309,7 @@ color: #0074ce;
     width: 58.3%;
     margin-top: 50px;
     padding: 0px;
+    box-sizing: border-box !important;
 }
 @media screen and (max-width: 768px) {
     .article-image2{
@@ -534,7 +533,9 @@ font-weight: bold;
     border-top: 1px solid #fff;
     padding: 20px;
 }
-
+.copy-right-content>div{
+    padding: 20px 10px;
+}
 .copy-right ul {
     display: flex;
 }
