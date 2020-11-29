@@ -10,7 +10,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #fff;
-    z-index: 2;
+    z-index: 9999;
     margin: 0;
 }
 
@@ -57,7 +57,7 @@ header {
     /* Place the button at the bottom of the page */
     right: 30px;
     /* Place the button 30px from the right */
-    z-index: 99;
+    z-index: 99999;
     /* Make sure it does not overlap */
     border: none;
     /* Remove borders */
@@ -271,7 +271,7 @@ color: #0074ce;
     width: 100%;
     height: 493px;
     box-shadow: 1.25rem 1.375rem 4.75rem 0 rgba(0,0,0,.22);
-    z-index: 99999;
+    z-index: 9;
    padding: 0px;
    background-color: #E3E3E3;
 }
@@ -548,3 +548,22 @@ font-weight: bold;
     color:#fff;
     padding: 5px 10px 5px 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
