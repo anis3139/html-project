@@ -210,7 +210,7 @@ color: #0074ce;
     padding: 15px ;
     box-sizing: border-box;
     text-align: center;
-    width: 300px;
+   min-width: 300px;
     min-height: 400px;
     
 }
